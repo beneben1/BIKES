@@ -1,0 +1,31 @@
+
+.menu{
+   width: 400px;
+   float: right;
+   height: 200px;
+   top: 30px;
+}
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.ul li{
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: Arial;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+  color: rgb(255, 252, 252);
+}
